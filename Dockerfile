@@ -10,7 +10,7 @@ LABEL com.github.actions.description="Wraps the firebase-tools CLI to enable com
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="gray-dark"
 
-RUN npm install -g firebase-tools
+RUN npm install -g firebase-tools@6.3
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
